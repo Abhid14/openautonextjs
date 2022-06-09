@@ -22,7 +22,7 @@ export default function Home() {
             <h1 className='lg:font-semibold leading-tight font-bold text-[28px] lg:text-[40px]'>
               Vehicle Maintenance From The Comfort of Your Home
             </h1>
-            <p className='font-thin text-[12px] lg:text-[14px] '>
+            <p className='font-thin text-[12px] lg:text-[14px]'>
               Open Auto Soothes the hassle of maintaining your vehicle and helps you deal with the unexpected repairs worry-free.
             </p>
             <ContactForm />
@@ -48,7 +48,7 @@ export default function Home() {
                 Focused on Time Saving
               </h1>
               <p className='lg:text-left lg:text-[16px] text-[15px] text-center font-thin'>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was
               </p>
               <DownBtn />
             </div>
