@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Icon } from "@iconify/react";
-import socialLinks from "../data/SocialLinks";
+import socialLinks from "../data/socialLinks";
 export default function SocialBar() {
   return (
     <div className="flex flex-row gap-4 items-center">
