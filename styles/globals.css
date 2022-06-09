@@ -24,7 +24,21 @@ main {
   width: 1190px;
 }
 
-@media all and (max-width: 1065px) {}
+hr {
+  height: 1px;
+  background-color: #2e3239;
+  border: none;
+  width: 100%;
+}
+
+@media all and (max-width: 1300px) {
+  .hideMob{
+    display: none;
+  }
+  .container{
+    width: 80%;
+  }
+}
 
 ::-webkit-scrollbar {
   width: 10px;

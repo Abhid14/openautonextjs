@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Icon } from '@iconify/react';
 export default function ContactBar() {
     return (
-        <div className="flex flex-row items-center gap-12">
+        <div className="flex flex-row items-center text-[12px] lg:text-[15px] gap-10 lg:gap-12">
             <Link href="tel:+7695864558">
 
                 <a className="flex flex-row gap-1 items-center">
