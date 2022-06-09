@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
 import NavBar from '../components/NavBar'
 import SocialBar from '../components/SocialBar'
 import DownBtn from '../components/DownBtn'
@@ -10,6 +9,8 @@ export default function Home() {
   return (
     <>
       <Head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <title>Open Auto</title>
         <meta name="description" content="Vehicle Maintenance From The Comfort of Your Home." />
         <link rel="icon" href="/favicon.ico" />

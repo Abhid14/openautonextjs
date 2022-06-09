@@ -2,6 +2,7 @@ import Link from "next/link";
 import ContactBar from "../components/ContactBar";
 import SocialBar from "./SocialBar";
 import { Icon } from '@iconify/react';
+import socialLinks from "../data/SocialLinks";
 export default function Footer() {
     return (
         <section className="container flex flex-col items-center py-10">
@@ -41,31 +42,13 @@ export default function Footer() {
                     </Link>
                 </div>
                 <div className="flex flex-row my-4 w-full justify-between items-center lg:hidden">
-                    <Link href="https://www.facebook.com">
-                        <a>
-                            <Icon height="25" icon="eva:facebook-fill" />
-                        </a>
-                    </Link>
-                    <Link href="https://www.twitter.com">
-                        <a>
-                            <Icon height="25" icon="eva:twitter-fill" />
-                        </a>
-                    </Link>
-                    <Link href="https://www.youtube.com">
-                        <a>
-                            <Icon height="25" icon="ant-design:youtube-filled" />
-                        </a>
-                    </Link>
-                    <Link href="https://www.linkedin.com">
-                        <a>
-                            <Icon height="25" icon="akar-icons:linkedin-v1-fill" />
-                        </a>
-                    </Link>
-                    <Link href="https://www.instagram.com">
-                        <a>
-                            <Icon height="25" icon="akar-icons:instagram-fill" />
-                        </a>
-                    </Link>
+                    {socialLinks.map((socialLinks, index) => (
+                        <Link href={socialLinks.link} key={index}>
+                            <a>
+                                <Icon height="25" icon={socialLinks.icon} />
+                            </a>
+                        </Link>
+                    ))}
                 </div>
             </div>
         </section>
