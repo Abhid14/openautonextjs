@@ -2,7 +2,7 @@ import Link from "next/link";
 import ContactBar from "../components/ContactBar";
 import SocialBar from "./SocialBar";
 import { Icon } from "@iconify/react";
-import socialLinks from "../data/SocialLinks";
+import socialLinks from "../data/socialLinks";
 export default function Footer() {
   return (
     <section className="container flex flex-col items-center py-10">
