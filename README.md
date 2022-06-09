@@ -3,7 +3,7 @@ For Demo Visit https://openautonextjs.vercel.app
 ## Getting Started
 
 
-First, install the required dependency:
+First, clone the project and install the required dependency inside the project directory:
 
 ```bash
 npm install
